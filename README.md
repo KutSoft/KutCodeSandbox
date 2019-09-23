@@ -1,2 +1,0 @@
-# KutCodeSandbox
-Created with CodeSandbox
