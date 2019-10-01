@@ -1,16 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom";
+//import AppSidebar from "components/Sidebar";
+//import AppSidebar from "./components/AppSidebar.js";
+//import Menu from "./components/Menu.js";
+//import Timer from "./components/Timer.js";
+import AppView from "./components/AppView.js";
 
-import "./styles.css";
+//ReactDOM.render(<AppSidebar />, document.getElementById("sidebar"));
+//ReactDOM.render(<Menu />, document.getElementById("menu"));
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
-  );
-}
+//--> Internationalization libs
+import { I18nextProvider } from "react-i18next";
+import i18n from "./components/i18n/i18n.js";
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(
+  <I18nextProvider i18n={i18n}>
+    <AppView />
+  </I18nextProvider>,
+  document.getElementById("root")
+);

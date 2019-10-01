@@ -1,0 +1,28 @@
+/* Sidebar Styles */
+.bigblue {
+  color: rgb(255, 30, 30);
+  padding: 0px;
+  font-family: Arial;
+  text-align: cenleftter;
+}
+
+.sidebar-menu-row {
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar-block-div {
+  display: inline-block;
+}
+
+.block {
+  text-align: center;
+  display: block;
+}
+
+.block-centered {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

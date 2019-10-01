@@ -1,0 +1,28 @@
+.menu ul {
+  width: 800px; /* Dimensioni della barra del menu */
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  list-style-type: none; /* Stile della lista */
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  color: #fff; /* Colore del testo */
+  text-align: center; /* Testo allineato al centro */
+  text-decoration: none; /* Nessuna decorazione */
+  background: gold; /* Colore dello sfondo */
+  padding: 4px 50px; /* Distanza tra le singole voci */
+  border-right: 1px solid #ffffff;
+}
+
+.menu a:hover {
+  background: #123456; /* Colore dello sfondo */
+}
+
+.menu-block {
+  display: inline-block;
+}

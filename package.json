@@ -1,14 +1,21 @@
 {
-  "name": "new",
+  "name": "reac-template-prj",
   "version": "1.0.0",
-  "description": "",
+  "description": "Template React project",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "i18next": "17.0.17",
+    "i18next-browser-languagedetector": "3.0.3",
+    "i18next-xhr-backend": "3.2.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
+    "react-fisheye": "1.0.0-beta.6",
+    "react-i18next": "10.13.1",
+    "react-pdf": "4.1.0",
     "react-router-dom": "5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-sidebar": "3.0.2"
   },
   "devDependencies": {
     "typescript": "3.3.3"
